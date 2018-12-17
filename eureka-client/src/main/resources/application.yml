@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+#服务与服务之间相互调用一般都是根据这个name寻找
+spring:
+  application:
+    name: eureka-client
+
+
+#服务注册中心的地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost/8081/eureka/
+
