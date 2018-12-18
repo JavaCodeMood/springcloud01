@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-sever" />
-        <module name="springcloud01" />
       </profile>
     </annotationProcessing>
   </component>
